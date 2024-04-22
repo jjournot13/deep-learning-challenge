@@ -27,17 +27,18 @@ Data Preprocessing
 
 Compiling, Training, and Evaluating the Model
 The initial model included two hidden relu layers and the sigmoid output layer and returned an accuracy of 0.7259474992752075.
+![Initial Model Results](https://github.com/jjournot13/deep-learning-challenge/assets/148399989/456440fc-eb3f-4ad3-9699-fb976e64c814)
 
 To optimize the model to reach at least 75% accuracy, I adjusted the model several ways:
 
 1. I created bins for the 'ASK_AMT' moving everything greater than 5000 into a single bin.
-
+![Model Optimization 1 - Binning by Ask Amount Greater than 5000](https://github.com/jjournot13/deep-learning-challenge/assets/148399989/521218e3-2294-4f62-ad81-90b8072b9ef4)
 
 2. Next, I kept the 'ASK_AMT' bins and increased the ephochs from 100 to 150.
-
+![Model Optimization 2 - Increasing ephochs to 150](https://github.com/jjournot13/deep-learning-challenge/assets/148399989/51ba4997-eca9-4764-b44e-afae910d9011)
 
 3. Finally, I added a third hidden relu layer.
-
+![Model Optimization 3 - Adding third hidden layer](https://github.com/jjournot13/deep-learning-challenge/assets/148399989/59c7bf5d-7a79-4587-9109-7c3eb2094f87)
 
 ## Summary
 
